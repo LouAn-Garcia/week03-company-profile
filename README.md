@@ -1,59 +1,95 @@
+# Phantom Tech — Company Profile Website
 
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+## 1. Project Title
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+**Phantom Tech — Laravel Company Profile Website**
 
-## About Laravel
+A Persona-inspired company profile website developed using Laravel as part of the Week 03 Client-Server Computing activity.
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+---
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+## 2. Introduction
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+### What is a Company Profile Website?
 
-## Learning Laravel
+A company profile website is an online platform that introduces a business, its identity, services, values, team, and contact information to visitors. It serves as a digital representation of a company and allows potential customers and business partners to learn more about the organization.
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+### Why Businesses Need One
 
-In addition, [Laracasts](https://laracasts.com) contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+Businesses need a professional online presence because customers often use the internet to research companies before choosing their products or services. A company website can improve credibility, provide important information, showcase services, and make it easier for customers to contact the business.
 
-You can also watch bite-sized lessons with real-world projects on [Laravel Learn](https://laravel.com/learn), where you will be guided through building a Laravel application from scratch while learning PHP fundamentals.
+### Purpose of the Project
 
-## Agentic Development
+The purpose of this project is to develop a professional company profile website using Laravel and demonstrate the Model-View-Controller (MVC) architecture.
 
-Laravel's predictable structure and conventions make it ideal for AI coding agents like Claude Code, Cursor, and GitHub Copilot. Install [Laravel Boost](https://laravel.com/docs/ai) to supercharge your AI workflow:
+The project demonstrates Laravel routing, controllers, reusable Blade layouts, Blade components, and responsive web design.
 
-```bash
-composer require laravel/boost --dev
+The website is designed with a bold red, black, and white visual style inspired by the dramatic visual aesthetic of Persona-style interfaces.
 
-php artisan boost:install
-```
+---
 
-Boost provides your agent 15+ tools and skills that help agents build Laravel applications while following best practices.
+## 3. Objectives
 
-## Contributing
+The following objectives were accomplished:
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+- Develop a company profile website using Laravel.
+- Implement the Model-View-Controller (MVC) architecture.
+- Create Laravel routes for the required website pages.
+- Create and use a `CompanyController`.
+- Implement reusable Blade layouts.
+- Create reusable navigation and footer components.
+- Develop Home, About, Services, and Contact pages.
+- Display at least six company services.
+- Create a responsive website design.
+- Implement a professional and visually distinctive user interface.
+- Organize the project according to Laravel conventions.
+- Use Git and GitHub for version control and project submission.
 
-## Code of Conduct
+---
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+## 4. MVC Architecture
 
-## Security Vulnerabilities
+### What is MVC?
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+MVC stands for **Model-View-Controller**. It is a software architecture pattern that separates an application into three major parts: the Model, View, and Controller.
 
-## License
+The **Model** handles data and business-related operations.
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+The **View** handles what the user sees. In Laravel, Blade templates are commonly used to create views.
+
+The **Controller** handles application logic and connects user requests to the appropriate response or view.
+
+### Why Laravel Uses MVC
+
+Laravel uses MVC because separating the different responsibilities of an application makes the code easier to understand, maintain, test, and expand.
+
+For example, routes determine which controller method should receive a request, while the controller determines which Blade view should be displayed.
+
+### Advantages of MVC
+
+The main advantages of MVC include:
+
+- Separation of concerns
+- Easier code maintenance
+- Better organization
+- Easier testing
+- Code reusability
+- Easier collaboration between developers
+- Easier expansion of larger applications
+
+### MVC Request Flow
+
+```text
+        Browser
+           │
+           ▼
+         Route
+           │
+           ▼
+       Controller
+           │
+           ▼
+       Blade View
+           │
+           ▼
+ Response to Browser
