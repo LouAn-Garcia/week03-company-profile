@@ -166,14 +166,22 @@ class CompanyController extends Controller
   <section>
     <h2>9. Screenshots</h2>
     <p>The following screenshots document the completed project:</p>
-    <ul>
-      <li>Home Page → <code>screenshots/home.png</code></li>
-      <li>About Page → <code>screenshots/about.png</code></li>
-      <li>Services Page → <code>screenshots/services.png</code></li>
-      <li>Contact Page → <code>screenshots/contact.png</code></li>
-      <li>Navigation Bar → <code>screenshots/navbar.png</code></li>
-      <li>Footer → <code>screenshots/footer.png</code></li>
+    <div>
+      <h3>Home Page</h3>
+      <img src="screenshots/home.png" alt="Home Page Screenshot" width="600">
+      <h3>About Page</h3>
+      <img src="screenshots/about.png" alt="About Page Screenshot" width="600">
+      <h3>Services Page</h3>
+      <img src="screenshots/services.png" alt="Services Page Screenshot" width="600">
+      <h3>Contact Page</h3>
+      <img src="screenshots/contact.png" alt="Contact Page Screenshot" width="600">
+      <h3>Navigation Bar</h3>
+      <img src="screenshots/navbar.png" alt="Navigation Bar Screenshot" width="600">
+      <h3>Footer</h3>
+      <img src="screenshots/footer.png" alt="Footer Screenshot" width="600">
+    </div>
   </section>
+
         
   <section>
     <h2>10. Problems Encountered</h2>
