@@ -244,5 +244,12 @@ class CompanyController extends Controller
     </ul>
   </section>
 
+  <section>
+    <h2>14. Architecture Diagram</h2>
+    <p>The following diagram illustrates Laravel's request flow:</p>
+    <img src="screenshots/architecture-diagram.png" alt="Laravel Request Flow Architecture Diagram" width="600">
+  </section>
+
+
 </body>
 </html>
